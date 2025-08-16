@@ -10,11 +10,20 @@
 npm install -g pnpm
 ```
 
-## よく使用する機能
+### おすすめ自作コマンド
+
+※Claude Codeでコマンドを自作させる
 
 ```bash
+# コードの文法チェック
 pnpm lint
+
+# TypeScript の型チェック
 pnpm type-check
+
+# カバレッジ
 pnpm test:coverage
+
+# コントラクト
 pnpm contract
 ```
