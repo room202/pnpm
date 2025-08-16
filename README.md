@@ -1,2 +1,17 @@
-# pnpm
-pnpmの操作手順
+# pnpmの操作手順
+
+## 前提条件
+
+- [Node.js 20+](https://github.com/room202/react?tab=readme-ov-file#volta-%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)
+
+## インストール
+
+```bash
+npm install -g pnpm
+```
+
+## よく使用する機能
+pnpm lint
+pnpm type-check
+pnpm test:coverage
+pnpm contract
