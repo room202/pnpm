@@ -11,7 +11,10 @@ npm install -g pnpm
 ```
 
 ## よく使用する機能
+
+```bash
 pnpm lint
 pnpm type-check
 pnpm test:coverage
 pnpm contract
+```
