@@ -12,7 +12,22 @@ npm install -g pnpm
 
 ### おすすめ自作コマンド
 
-※Claude Codeでコマンドを自作させる
+Claude Codeでコマンドを自作させる
+
+プロンプト
+
+```
+以下を設定したいです。
+pnpm lint
+pnpm type-check
+pnpm test:coverage
+pnpm contract
+<package.jsonのファイルパス>
+<pnpm-lock.yamlのファイルパス>
+<ui_db_todo.mdのファイルパス>
+UI-DB contractのremoteを設定してください。
+<.env.localのファイルパス>
+```
 
 ```bash
 # コードの文法チェック
